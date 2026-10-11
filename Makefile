@@ -5,12 +5,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=oxidns
-PKG_VERSION:=1.6.0
+PKG_VERSION:=1.6.1
 PKG_RELEASE:=1
 
 PKG_SOURCE:=oxidns-x86_64-unknown-linux-musl.tar.gz
 PKG_SOURCE_URL:=https://github.com/svenshi/oxidns/releases/download/v$(PKG_VERSION)
-PKG_HASH:=185d0c2ff627d0bf6154c3c2df618271d224684219a53712c3b763d5317d8c27
+PKG_HASH:=8d763c0dd8df2f8d2f421b52dacf7f2f6ebc2f89ee3a952300962bde4dc9d807
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
