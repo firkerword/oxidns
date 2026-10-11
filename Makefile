@@ -10,7 +10,7 @@ PKG_RELEASE:=1
 
 PKG_SOURCE:=oxidns-x86_64-unknown-linux-musl.tar.gz
 PKG_SOURCE_URL:=https://github.com/svenshi/oxidns/releases/download/v$(PKG_VERSION)
-PKG_HASH:=8d763c0dd8df2f8d2f421b52dacf7f2f6ebc2f89ee3a952300962bde4dc9d807
+PKG_HASH:=2ac8e103e03407a73c29da848f6ce2d524e751ce1da8a744aa9168fc1384e3b0
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
